@@ -1,0 +1,135 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body,
+input,
+textarea {
+  font-family: "Poppins", sans-serif;
+}
+.container {
+  position: relative;
+  width: 100%;
+  min-height: 100vh;
+  padding: 1rem;
+  background-color: #c8e4ef;
+  overflow: hidden;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.form {
+  width: 1000%;
+  max-width: 900px;
+  background-color: #fff;
+  border-radius: 50px;
+  box-shadow: 0 0 25px 1px rgba(0, 0, 0, 0.1);
+  z-index: 2000;
+  overflow: hidden;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+}
+.contact-form {
+  background-color:#7BA0AF;
+  position: static;
+}
+form {
+  padding: 1.3rem 2.2rem;
+  z-index: 50;
+  overflow: hidden;
+  position: relative;
+}
+.title {
+  color:  #506d84
+;
+  font-weight: 5000;
+  font-size: 1.5rem;
+  line-height: 1;
+  margin-bottom: 0.7rem;
+}
+.input-container {
+  position: relative;
+  margin: 2rem 0;
+}
+.input {
+  width: 100%;
+  outline: none;
+  border: 2px solid #ebedf1;
+  background: none;
+  padding: 1rem 1.2rem;
+  color: rgb(16, 4, 4);
+  font-weight: 500;
+  font-size: 0.95rem;
+  letter-spacing: 0.9px;
+  border-radius: 15px;
+  transition: 0.9s;
+}
+.input-container label {
+  position: absolute;
+  top: 50%;
+  left: 15px;
+  transform: translateY(-50%);
+  padding: 0 0.4rem;
+  color: #030608;
+  font-size: 0.9rem;
+  font-weight: 400;
+  pointer-events: none;
+  z-index: 1000;
+  transition: 0.5s;
+}
+.subbtn {
+  padding: 0.6rem 1.3rem;
+  background-color: #fff;
+  border: 2px solid #fafafa;
+  font-size: 0.95rem;
+  color: #297aac;
+  line-height: 1;
+  border-radius: 5px;
+  outline: none;
+  cursor: pointer;
+  transition: 0.3s;
+  margin: 0;
+  width: 100%;
+}
+.input-container span {
+  position: absolute;
+  top: 0;
+  left: 25px;
+  transform: translateY(-50%);
+  font-size: 0.8rem;
+  padding: 0 0.4rem;
+  color: transparent;
+  pointer-events: none;
+  z-index: 500;
+}
+.input-container.focus label {
+  top: 0;
+  transform: translateY(-50%);
+  left: 25px;
+  font-size: 0.8rem;
+}
+.contact-info {
+  padding: 2.3rem 2.2rem;
+  position: relative;
+}
+.text {
+  color: #333;
+  margin: 1.5rem 0 2rem 0;
+}
+.information {
+  display: flex;
+  color: #555;
+  margin: 0.7rem 0;
+  align-items: center;
+  font-size: 0.95rem;
+}
+.icon {
+  width: 28px;
+  margin-right: 0.7rem;
+}
+@media (max-width: 480px) {
+  .container {
+    padding: 1.5rem;
+  }
+}

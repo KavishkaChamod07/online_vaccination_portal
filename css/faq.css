@@ -1,0 +1,44 @@
+.box{
+    width: 1000px;
+    margin: 100px auto;
+    background: #fff;
+    border-radius: 7px;
+    box-shadow: 1px 2px 4px rgba(0, 0, 0, -3);
+}
+
+.box .heading {
+    background: #1A3C40;
+    border-radius: 7*px 7px 0px 0px;
+    padding: 10px;
+    columns: #fff;
+    text-align: center;
+    /* font-family: "Rubik"; */
+    color: #fff;
+    font-weight: 500;
+    font-size: 110%;
+}
+
+.faqs{
+    padding: 0px 20px 20px;
+}
+
+::webkit-details-marker{
+    float: right;
+    margin-top: 3px;
+}
+
+details{
+    background: #f6f6f6;
+    padding: 10px;
+    border-radius: 7px;
+    margin-top: 20px;
+    /* font-family: "Rubik"; */
+    letter-spacing: 1px;
+    font-size: 15px;
+}
+
+details summary{
+    outline: none;
+    font-weight: 500;
+    font-size: 110%;
+}

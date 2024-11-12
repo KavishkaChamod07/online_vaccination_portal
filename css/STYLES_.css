@@ -1,0 +1,156 @@
+/*body
+{
+  background-color: #bbbbbb;
+}
+.container
+{
+	 background-color: pink;
+}
+hr.new1{
+	border-top: 1px solid black;
+}
+
+ul.menu{
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+	overflow: hidden;
+	background-color:#333;
+}
+li.menu{
+	float: left;
+}
+li a {
+	color: white;
+	display: block;
+	text-align: center;
+	padding: 15px 20px;
+	text-decoration: none;
+}
+li a:hover{
+	background-color: skyblue;
+}
+
+.btn1
+{
+  display: inline-block;
+  padding: 15px 25px;
+  font-size: 12px;
+  cursor: pointer;
+  text-align: center;
+  text-decoration: none;
+  outline: none;
+  color: #fff;
+  background-color: teal;
+  border: none;
+  border-radius: 15px;
+  
+}
+
+.btn1:hover {background-color: green}
+
+.btn1:active {
+  background-color: #3e8e41;
+  box-shadow: 0 5px #666;
+  transform: translateY(4px);
+}
+
+.btn2
+{
+  display: inline-block;
+  padding: 8px 5px;
+  font-size: 12px;
+  cursor: pointer;
+  text-align: center;
+  text-decoration: none;
+  outline: none;
+  color: #fff;
+  background-color: #333;
+  border: none;
+  border-radius: 15px;
+  
+}
+
+
+a.btn2:link, a.btn2:visited {
+  background-color: #f44336;
+  color: white;
+  padding: 10px 15px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+}
+a.btn2:hover, .btn2:active {
+  background-color: red;
+}
+
+
+.btn3
+{
+  display: inline-block;
+  padding: 8px 12px;
+  font-size: 12px;
+  cursor: pointer;
+  text-align: center;
+  text-decoration: none;
+  outline: none;
+  color: #fff;
+  background-color: green;
+  border: none;
+  border-radius: 15px;
+  
+}
+a.btn3:hover, .btn2:active {
+  background-color: red;
+}
+
+
+body, html {
+    height: 100%;
+}
+		
+	
+	.gfg {
+		filter: clear(5px);
+		width: 100%;
+	}
+	
+	.gfg1 {
+		filter: clear(5px);
+		width: 20%;
+		
+	}
+	
+.logo {
+        text-align:center;
+        position: absolute;
+        font-size: 18px;
+        top: 50px;
+        left: 27%;
+        color: olive drab;
+    }
+	
+		
+	h1, p {
+		border: 4px solid white;
+		padding: 10px 50px;
+		font-weight: bold;
+		position: relative;
+		font-size: 20px;
+		color: black;
+		border-radius: 10px;
+		font-family: Helvetica, sans-serif;
+	}
+	h1:hover {
+		background: -webkit-linear-gradient(#553c9a 30%, #ee4b2b 40%, #ee4b2b 70%, #00c2cb 80%, #553c9a);
+    background-clip: text;
+		-webkit-text-fill-color: transparent;
+	}
+			
+footer {
+  text-align: center ;
+  padding: 70px;
+  background-color: grey;
+  color: white;
+}*/
+
